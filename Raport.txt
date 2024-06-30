@@ -1,0 +1,30 @@
+Działanie:
+Wyskakuje okno, które pyta nas o ulubiony film. Po wpisaniu tytułu wybierany jest tytuł najbliższy do wpisanego. 
+Otrzymamy wtedy 10 najpodobniejszych (wg podobieństwa kosinusowego) filmów.
+Wpisując tytuł do którego nie ma powiązań wyskakuje komunikat, który nas o tym informuje.
+
+Plan działania:
+-Pobranie bazy danych z filmami i informacjami o nich (gatunki, reżyserzy itd.) np. z kaggle.
+https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
+-Zainstalowanie potrzebnych bibliotek (pip install w terminalu) tj. scikit-learn (zamiana danych na wektory liczb, podobieństwo kosinusowe),
+pandas (do obsługi danych tabelarycznych z pliku csv).
+-Tworzymy system wg. którego będą wybierane filmy (poszczególne kroki w pisaniu skryptu są opisane w kodzie).
+-Na koniec stworzenie GUI z pomocą biblioteki Tkinter.
+
+Wyzwania:
+-zrozumienie i zastosowanie podobieństwa kosinusowego z biblioteki scikit-learn.
+
+Rzeczy które można dodać w przyszłości:
+-rozbudowywanie bazy danych o nowe pozycje.
+-informacja na jakiej platformie można obejrzeć dany film.
+-obsługa polskich nazw filmów.
+-dodanie ilustracji i opisów filmów.
+
+bibliografia:
+https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
+https://www.youtube.com/watch?v=7eh4d6sabA0
+https://www.youtube.com/watch?v=kuC38ZCcbZI&list=PLPUREHyxElgOYP3KSm4znU-hu_IulLmRq
+https://www.youtube.com/watch?v=7rEagFH9tQg&list=PLPUREHyxElgOYP3KSm4znU-hu_IulLmRq&index=3
+https://www.youtube.com/watch?v=jm9JamrbSv8&list=PLPUREHyxElgOYP3KSm4znU-hu_IulLmRq&index=4
+https://www.youtube.com/watch?v=ibf5cx221hk
+Jako źródło wiedzy pomocne także były chatGPT, Gemini i coPilot.

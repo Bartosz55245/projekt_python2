@@ -1,0 +1,10 @@
+-Otwórz PyCharm (na przykład).
+-Otwórz terminal w PyCharm (View -> Tool Windows -> Terminal).
+-W terminalu wpisz polecenie:
+pip install numpy pandas scikit-learn
+W ten sposób zainstalujesz wszystkie potrzebne biblioteki.
+-Umieść plik movies.csv w tym samym katalogu co twój plik projekt.py.
+-Kliknij prawym przyciskiem myszy na pliku Pythona (projekt.py) i wybierz opcję "Run 'projekt'".
+-Po uruchomieniu skryptu pojawi się okno GUI, które możesz używać do wprowadzania nazw filmów i otrzymywania rekomendacji.
+
+
